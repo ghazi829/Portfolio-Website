@@ -119,6 +119,12 @@ If you have any questions or need help customizing this portfolio, feel free to:
 - Contact me through the portfolio form
 - Reach out via social media links provided
 
+  ## 📬 Contact
+  
+- Email: [ghazipir1@gmail.com](mailto:ghazipir1@gmail.com)  
+- GitHub: [ghazi829](https://github.com/ghazi829)  
+- LinkedIn: [Pir Ghazi Shah](https://linkedin.com/in/pir-ghazi-shah)  
+
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
