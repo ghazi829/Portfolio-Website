@@ -35,7 +35,7 @@ portfolio/
 ├── style.css           # Complete styling with modern design
 ├── script.js           # Interactive functionality
 ├── assets/
-│   ├── images/         # Project screenshots and profile image
+│   ├── Profile/         # Project screenshots and profile image
 │   └── icons/          # Additional icons and graphics
 └── README.md           # Project documentation
 ```
@@ -50,15 +50,7 @@ portfolio/
 
 2. **Open in browser**
    - Simply open `index.html` in your preferred web browser
-   - Or use a local server for best experience:
-   ```bash
-   # Using Python
-   python -m http.server 8000
    
-   # Using Node.js
-   npx serve
-   ```
-
 3. **Customize for your use**
    - Update personal information in `index.html`
    - Modify colors in CSS variables

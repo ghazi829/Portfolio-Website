@@ -191,32 +191,32 @@ blueBtn.addEventListener('click', function(){
 // Initialize EmailJS
     // (function() {
  // ✅ Initialize EmailJS with your Public Key
-    (function() {
-        emailjs.init("gZBrTo_lOBpeEXt_s"); // Replace with your Public Key
-    })();
+    // (function() {
+    //     emailjs.init("gZBrTo_lOBpeEXt_s"); // Replace with your Public Key
+    // })();
 
-    // ✅ Form submit handler
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
-        event.preventDefault();
+    // // ✅ Form submit handler
+    // document.getElementById("contact-form").addEventListener("submit", function(event) {
+    //     event.preventDefault();
 
-        emailjs.sendForm("service_k8lbwkf", "template_oqkld7p", this)
-        .then(function(response) {
-            alert("✅ Message sent successfully!");
-            document.getElementById("contact-form").reset(); // Reset form after success
-        }, function(error) {
-            alert("❌ Failed to send message. Error: " + JSON.stringify(error));
-        });
+    //     emailjs.sendForm("service_k8lbwkf", "template_oqkld7p", this)
+    //     .then(function(response) {
+    //         alert("✅ Message sent successfully!");
+    //         document.getElementById("contact-form").reset(); // Reset form after success
+    //     }, function(error) {
+    //         alert("❌ Failed to send message. Error: " + JSON.stringify(error));
+    //     });
+    // });
+
+emailjs.init("1XfMO-j7m_pL2HL73"); // yahan aapka Public Key
+
+document.querySelector('.form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_ymp004l', 'template_7269hac', this)
+    .then(function() {
+        alert('Message sent successfully!');
+    }, function(error) {
+        alert('Failed to send message: ' + JSON.stringify(error));
     });
-
-// emailjs.init("gZBrTo_lOBpeEXt_s"); // yahan aapka Public Key
-
-// document.querySelector('.form').addEventListener('submit', function(event) {
-//     event.preventDefault();
-
-//     emailjs.sendForm('service_k8lbwkf', 'template_oqkld7p', this)
-//     .then(function() {
-//         alert('Message sent successfully!');
-//     }, function(error) {
-//         alert('Failed to send message: ' + JSON.stringify(error));
-//     });
-// });
+});

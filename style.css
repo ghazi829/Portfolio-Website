@@ -6,9 +6,9 @@
     --secondary-color: #FFFFFF;
     --second-background: #181818;
     --accent-color:#69F0AE;
-    --second-accent-color: 	#82B1FF;
+    --second-accent-color: 	#45c286;
 
-    --shadow-color: #82B1FF;
+    --shadow-color: #69F0AE;
     --shadow: 1px 4px 20px var(--shadow-color);
 }
 
